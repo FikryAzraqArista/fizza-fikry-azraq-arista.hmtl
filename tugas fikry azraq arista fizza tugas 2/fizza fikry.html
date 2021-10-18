@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martabak sanjaya</title>
+    <style>
+        body, h1 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body style="background-color: #FF0000;">
+    <h1>Black Goose Bistro I Pizza-on-Demand</h1>
+    <p>our 12" wood-fired pizzas are available for delivery.
+        build your custom pizza and we'll it delivery within an hour.</p>
+        <br/>
+        <p style="margin-top: -10px;">Your information</p>
+        <form method="POST" action="login.php" style="margin-top: -10px;">
+            Nama : <input type="text" name="Nama" placeholder="Your name" style="margin-top: -5px;"/>
+            <br/>
+            Addres : <input type="text" name="Addres" placeholder="Your addres" style="margin-top: 5px;"/>
+            <br/>
+            Telephone Number : <input type="text" name="Telephone Number" maxlength="12" placeholder="input telephone number" style="margin-top: 5px;"/>
+            <br/>
+            Email : <input id="email" type="Email" placeholder="input email" style="margin-top: 5px;"/>
+            <br/>
+            Delivery instruction :
+            <br/>
+            <textarea name="Delivery instruction" cols="40" rows="4" style="margin-top: 10px;"></textarea>
+        </form>
+        <br/>
+        <p><strong>Design Your Dream Pizza</strong></p>
+        <p style="margin-top: -10px;">Pizza specs</p>
+        <br/>
+        <p style="margin-top: -10px;">Crust (choose one):</p>
+            <ol style="margin-top: -10px;">
+                <li><input type="radio" name="age" value="Classic White" checked> Classic White</li>
+                <li><input type="radio" name="age" value="Multigrain" checked> Multigrain</li>
+                <li><input type="radio" name="age" value="Cheese-Stuffed Crust" checked> Cheese-Stuffed Crust</li>
+                <li><input type="radio" name="age" value="Gluten-free" checked> Gluten-free</li>
+            </ol>
+        <p>Toppings (Choose as many as you want):</p>
+        <form action="/action_page.php" style="margin-top: -10px;">
+            <input type="checkbox" id="vehiche1" name="vehichel" value="Red sauce">
+            <label for="vehiche1">Red sauce</label>
+            <br/>
+            <input type="checkbox" id="vehiche2" name="vehiche2" value="white sauce">
+            <label for="vehiche2">White sauce</label>
+            <br/>
+            <input type="checkbox" id="vehiche3" name="vehiche3" value="Mozzarella Cheese">
+            <label for="vehiche3">Mozzarella Cheese</label>
+            <br/>
+            <input type="checkbox" id="vehiche4" name="vehiche4" value="pepperoni">
+            <label for="vehiche4">pepperoni</label>
+            <br/>
+            <input type="checkbox" id="vehiche5" name="vehiche5" value="Mushrooms">
+            <label for="vehiche5">Mushrooms</label>
+            <br/>
+            <input type="checkbox" id="vehiche6" name="vehiche6" value="Peppers">
+            <label for="vehiche6">Peppers</label>
+            <br/>
+            <input type="checkbox" id="vehiche7" name="vehiche7" value="Anchovies">
+            <label for="vehiche7">Anchovies</label>
+            <br/>
+        </form>
+        <br/>
+        <label>Number<br/>
+            How many pizzas <input type="number" name="guests" min="1" max="6"></label>
+         <form>
+            <p><input type="submit" value="Bring me a pizza"> <input type="reset" value="Reset"></p>
+        </form>    
+
+
+            
+        
+    
+</body>
+</html>
